@@ -16,6 +16,7 @@
                     {"text": "text"},
                     {"title": "title"},
                     {"preamble": "preamble"},
+                    {"button": "button"},
                     {"support_headline": "support_headline"},
                     {"list": "list"},
                     {"image": "image"},
