@@ -6,12 +6,24 @@
   "parameters": {
     "instance": [
       {
-        "id": "defaultColor",
-        "name": "Default color",
-        "description": "Set which color is the default color",
+        "id": "defaultValue",
+        "name": "Default value",
+        "description": "Set which vaule is the default",
         "type": "Enum",
-        "options": [{"#0000FF": "blue"}, {"#FFFF00": "yellow"}, {"#FF0000": "red"}],
-        "labels": {"empty": "Choose a color"},
+        "options": [{"video": "video"}, 
+                    {"link": "link"}, 
+                    {"link_collection": "link_collection"},
+                    {"text": "text"},
+                    {"title": "title"},
+                    {"preamble": "preamble"},
+                    {"support_headline": "support_headline"},
+                    {"list": "list"},
+                    {"image": "image"},
+                    {"header_image": "header_image"},
+                    {"accordion": "accordion"},
+                    {"accordion_collection": "accordion_collection"}
+                   ],
+        "labels": {"empty": "Choose a value"},
         "required": true
       }
     ]
